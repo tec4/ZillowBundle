@@ -70,8 +70,6 @@ class SearchResultsRequest extends Request {
         } else {
             $responses[] = new SearchResultsResponse($result['result']);
         }
-
-        dump($responses);
         
         return $responses;
     }
